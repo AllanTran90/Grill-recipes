@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background: #1c1512;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.font-heading {
+  font-family: var(--font-oswald), sans-serif;
+}
